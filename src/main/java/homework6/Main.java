@@ -24,7 +24,7 @@ public class Main {
                 "Windows", "платиновый"));
         // showAll(laptops);
         Laptop needLaptop = requestLaptop();
-        System.out.println("========= Необходимый ноутбук ==========\n" + needLaptop);
+        System.out.println("Необходимый ноутбук \n" + needLaptop);
         Set<Laptop> filteredLaptops = filteredLaptops(laptops, needLaptop);
         showAll(filteredLaptops);
 
